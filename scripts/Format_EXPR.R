@@ -23,7 +23,6 @@ case <- read.csv("files/cased_sequenced.csv", sep = ";")
 
 # Filter the 'expr' dataset to include patients with expr value of 1 in the 'case' dataset
 expr <- expr[, colnames(expr) %in% case[case$expr == 1, ]$patient]
-expr <- as.data.frame(lapply(expr, as.numeric), row.names = rownames(expr))
 
 # Write the transformed data to a CSV file
 write.table(expr, "files/EXPR.csv", quote = FALSE, sep = ";", col.names = TRUE, row.names = TRUE)

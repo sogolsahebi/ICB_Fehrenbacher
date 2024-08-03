@@ -1,5 +1,5 @@
 # Rna-seq Data Processing
-# File: Save Format_EXPR.csv (dimension is 21508 x 105)
+# File: Save Format_EXPR.csv (dimension is 29485 x 192)
 
 # Read libraries
 library(data.table)

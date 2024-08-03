@@ -17,12 +17,8 @@ clin2 <- clin2[, colSums(!is.na(clin2)) > 0]
 clin2$subjectId <- gsub("^PAT-", "", clin2$subjectId)
 clin1$UNI_ID <- substr(clin1$UNI_ID, 1, 12)
 
-# Merge the dataframes
-clin_merged <- merge(clin1, clin2, by.x = "UNI_ID", by.y = "subjectId", all.x = TRUE)
-
 # Merge clin1 and clin2
 clin_merged <- merge(clin1, clin2, by.x = "UNI_ID", by.y = "subjectId") # dim 192 x 13
-
 
 # Set patient column
 colnames(clin_merged)[colnames(clin_merged) == "alias"] <- "patient"

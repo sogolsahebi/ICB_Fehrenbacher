@@ -1,7 +1,7 @@
 ### ICB_Fehrenbacher
 
 - **Read Paper:** [PMID: 26970723](https://pubmed.ncbi.nlm.nih.gov/26970723/)
-- **Trial ID:** POPLAR / [NCT01903993](https://clinicaltrials.gov/study/NCT01903993)
+- **Trial ID:** POPLAR/ [NCT01903993](https://clinicaltrials.gov/study/NCT01903993)
 - **Objective:** The trial evaluates the efficacy of atezolizumab versus chemotherapy in advanced non-small cell lung cancer (NSCLC), utilizing pre-treatment tumor transcriptomes from large clinical trials.
 - **Data Source:** [EGAC00001002120](https://ega-archive.org/dacs/EGAC00001002120)
 - **Clinical Data:** [EGAD00001008548](https://ega-archive.org/dacs/EGAC00001002120) (includes treatment arm, histology, overall survival, progression-free survival, TLS-LA calls, and best confirmed overall response)
